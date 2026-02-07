@@ -86,6 +86,17 @@ button:hover {
   animation: floatUp linear forwards;
 }
 
+.hearts,
+.petals {
+  pointer-events: none;
+  z-index: 1;
+}
+
+.screen {
+  position: relative;
+  z-index: 5;
+}
+
 @keyframes floatUp {
   to {
     transform: translateY(-110vh);
@@ -102,6 +113,9 @@ button:hover {
   .message {
     font-size: 1rem;
   }
+  .video-wrapper {
+  margin-bottom: 40px;
+}
 
   button {
     font-size: 1rem;
