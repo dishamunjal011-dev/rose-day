@@ -1,36 +1,43 @@
-<div id="screen1" class="screen active">
-  <h1>🌹 Happy Rose Day 🌹</h1>
-  <p>This is for you 💕</p>
-  <button onclick="nextScreen(2)">Pick a Rose 🌹</button>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Rose Day 💖</title>
 
-<div id="screen2" class="screen">
-  <h1>One last surprise 💝</h1>
-  <button onclick="nextScreen(3)">OPEN ME 💖</button>
-</div>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
 
-<div id="screen3" class="screen">
-  <h1>Forever Us 💕</h1>
+  <div id="screen1" class="screen active">
+    <h1>🌹 Happy Rose Day 🌹</h1>
+    <p>This is for you 💕</p>
+    <button onclick="nextScreen(2)">Pick a Rose 🌹</button>
+  </div>
 
-  <p class="message">
-    Dear <span class="name">MR AMAN ARYA</span>,<br><br>
-    This rose is cute,<br>
-    but you’re cuter 😌🌹<br><br>
-    Your voice is my weakness —<br>
-    manly, funny, and impossible to ignore ❤️<br><br>
-    Innocent for everyone else…<br>
-    but not when it’s just us 😏
-  </p>
+  <div id="screen2" class="screen">
+    <h1>One last surprise 💝</h1>
+    <button onclick="nextScreen(3)">OPEN ME 💖</button>
+  </div>
 
-  <!-- Video button -->
-  <button onclick="openVideo()">🎬 Watch Your Rose Day Video 💖</button>
-</div>
+  <div id="screen3" class="screen">
+    <h1>Forever Us 💕</h1>
 
-<!-- Floating Hearts -->
-<div class="hearts"></div>
+    <p class="message">
+      Dear <span class="name">MR AMAN ARYA</span>,<br><br>
+      This rose is cute,<br>
+      but you’re cuter 😌🌹<br><br>
+      Your voice is my weakness —<br>
+      manly, funny, and impossible to ignore ❤️<br><br>
+      Innocent for everyone else…<br>
+      but not when it’s just us 😏
+    </p>
 
-<!-- Rose Petals -->
-<div class="petals"></div>
-<link rel="stylesheet" href="style.css">
-<script src="script.js"></script>
+    <button onclick="openVideo()">🎬 Watch Your Rose Day Video 💖</button>
+  </div>
 
+  <div class="hearts"></div>
+  <div class="petals"></div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
