@@ -2,23 +2,27 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Rose Day 💖</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🌹 Happy Rose Day 🌹</title>
 
   <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
 
+  <!-- Screen 1 -->
   <div id="screen1" class="screen active">
     <h1>🌹 Happy Rose Day 🌹</h1>
     <p>This is for you 💕</p>
     <button onclick="nextScreen(2)">Pick a Rose 🌹</button>
   </div>
 
+  <!-- Screen 2 -->
   <div id="screen2" class="screen">
     <h1>One last surprise 💝</h1>
     <button onclick="nextScreen(3)">OPEN ME 💖</button>
   </div>
 
+  <!-- Screen 3 -->
   <div id="screen3" class="screen">
     <h1>Forever Us 💕</h1>
 
@@ -32,9 +36,17 @@
       but not when it’s just us 😏
     </p>
 
-    <button onclick="openVideo()">🎬 Watch Your Rose Day Video 💖</button>
+    <!-- Responsive Video -->
+    <div class="video-wrapper">
+      <iframe
+        src="https://adrose.my.canva.site/"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </div>
   </div>
 
+  <!-- Floating effects -->
   <div class="hearts"></div>
   <div class="petals"></div>
 
