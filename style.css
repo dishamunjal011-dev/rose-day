@@ -82,6 +82,26 @@ button:hover {
   border: none;
 }
 
+/* CTA button styling to match screenshot, mobile-friendly */
+.cta-btn {
+  display: inline-block;
+  background: #ff476e;      /* pink/red */
+  color: #fff;
+  font-weight: 700;
+  padding: 18px 32px;
+  border-radius: 999px;       /* pill shape */
+  text-decoration: none;
+  font-size: 1.15rem;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 6px 16px rgba(0,0,0,.15);
+  transition: transform .2s ease;
+}
+.cta-btn:hover {
+  transform: translateY(-2px);
+  background: #ff3b5a;
+}
+
 /* Floating hearts */
 .hearts span,
 .petals span {
