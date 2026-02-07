@@ -5,9 +5,8 @@ function nextScreen(n) {
   document.getElementById('screen' + n).classList.add('active');
 }
 
-// Open Canva video in new tab
 function openVideo() {
-  window.open('https://adrose.my.canva.site/', '_blank');
+  window.open('https://www.youtube.com/watch?v=whRj0am42hc', '_blank', 'noopener');
 }
 
 // Floating hearts
